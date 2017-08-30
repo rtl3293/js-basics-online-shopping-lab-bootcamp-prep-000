@@ -91,5 +91,5 @@ function placeOrder(cardNumber) {
 addToCart("apples")
 addToCart("pears")
 viewCart()
-removeFromCart("a")
+removeFromCart("apples")
 viewCart()
