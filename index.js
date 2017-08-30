@@ -91,8 +91,8 @@ function placeOrder(cardNumber) {
   // write your code here
 }
 
-addToCart("apples")
+/*addToCart("apples")
 addToCart("pears")
 viewCart()
 removeFromCart("apples")
-viewCart()
+viewCart()*/
