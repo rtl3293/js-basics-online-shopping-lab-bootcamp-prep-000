@@ -30,7 +30,6 @@ function viewCart() {
           var val = cart[i][key]
         }
         cartSpread = `${key} at $${val}`
-        console.log(`${output} ${cartSpread}.`)
       } else if (cart.length === 2) {
           for (var key in cart[i]){
             var val = cart[i][key]
@@ -40,7 +39,6 @@ function viewCart() {
                 cartSpread =  cartSpread + `${key} at $${val}`
               }
             }
-            console.log(`${output} ${cartSpread}.`)
           } else if (cart.length > 2) {
               for (var key in cart[i]){
                 var val = cart[i][key]
@@ -50,9 +48,9 @@ function viewCart() {
                   cartSpread = cartSpread + `and ${key} at $${val}`
                 }
               }
-              console.log(`${output} ${cartSpread}.`)
             }
           }
+          console.log(`${output} ${cartSpread}.`)
         } else {
           console.log("Your shopping cart is empty.")
         }
