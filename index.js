@@ -70,13 +70,13 @@ function total() {
 }
 
 function removeFromCart(item) {
+  cartLength = cart.length
   for (var i = 0; i < cart.length; i++){
       var pair = cart[i]
       if (pair.hasOwnProperty(item) === true){
         cart.splice(i)
+        cartLength--
         return cart
-      } else {
-        console.log('That item is not in your cart.')
       }
   }
 }
