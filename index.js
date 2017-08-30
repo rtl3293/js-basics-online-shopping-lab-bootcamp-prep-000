@@ -70,7 +70,7 @@ function total() {
 }
 
 function removeFromCart(item) {
-  cartLength = cart.length
+  var cartLength = cart.length
   for (var i = 0; i < cart.length; i++){
       var pair = cart[i]
       if (pair.hasOwnProperty(item) === true){
