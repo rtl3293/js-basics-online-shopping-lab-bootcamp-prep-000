@@ -73,6 +73,7 @@ function removeFromCart(item) {
   var cartLength = cart.length
   for (var i = 0; i < cart.length; i++){
       var pair = cart[i]
+      console.log(pair.hasOwnProperty(item))
       if (pair.hasOwnProperty(item) === true){
         cart.splice(i)
         return cart
