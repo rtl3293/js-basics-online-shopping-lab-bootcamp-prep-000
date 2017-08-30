@@ -90,4 +90,3 @@ addToCart("pears")
 viewCart()
 removeFromCart("pears")
 viewCart()*/
-
