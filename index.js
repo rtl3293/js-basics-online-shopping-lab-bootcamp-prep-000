@@ -100,4 +100,4 @@ addToCart("pears")
 viewCart()
 removeFromCart("apples")
 viewCart()
-
+placeOrder()
