@@ -97,9 +97,9 @@ function placeOrder(cardNumber) {
   }
 }
 
-addToCart("apples")
+/*addToCart("apples")
 addToCart("pears")
 viewCart()
 removeFromCart("apples")
 viewCart()
-placeOrder(123456)
+placeOrder(123456)*/
