@@ -75,7 +75,8 @@ function removeFromCart(item) {
       var pair = cart[i]
       console.log(pair.hasOwnProperty(item))
       if (pair.hasOwnProperty(item) === true){
-        cart.splice(i)
+        /*cart.splice(i)*/
+        console.log(pair)
         console.log(cart)
       }
   }
